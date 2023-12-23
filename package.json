@@ -1,0 +1,23 @@
+{
+  "name": "university-management",
+  "version": "0.0.1",
+  "description": "University Management Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sberkan09/UniversityManagement.git"
+  },
+  "author": "GraphLords",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sberkan09/UniversityManagement/issues"
+  },
+  "homepage": "https://github.com/sberkan09/UniversityManagement#readme",
+  "dependencies": {
+    "pkg.json": "^2.0.8"
+  }
+}
