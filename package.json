@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sberkan09/UniversityManagement#readme",
   "dependencies": {
+    "npx": "^10.2.2",
     "pkg.json": "^2.0.8"
   }
 }
