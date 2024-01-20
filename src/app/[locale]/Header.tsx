@@ -5,10 +5,11 @@ import { usePathname } from 'next/navigation';
 import LanguageButton from './LanguageButton'
 
 const Header = ({ params }: { params: { locale: string } }) => {
-    const pathName = usePathname().split('/', 3)[2] !== undefined ? usePathname().split('/', 3)[2] : "/";
+    const currentPath = usePathname().split('/', 3)[2];
+    const toPath = currentPath !== undefined ? currentPath : "/";
   return (
     <>
-        <LanguageButton params={params} to={pathName}/>
+        <LanguageButton params={params} to={toPath}/>
     </>
   )
 }
