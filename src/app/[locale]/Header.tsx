@@ -14,4 +14,4 @@ const Header = ({ params }: { params: { locale: string } }) => {
   )
 }
 
-export default Header
+export default Header;
